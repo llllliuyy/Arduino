@@ -1,25 +1,445 @@
-int ledPin = 13;
-void setup() {
- pinMode(ledPin,OUTPUT);
-
+int ledpin = 13;
+String myString = "";
+void setup()
+{
+    pinMode(ledpin, OUTPUT);
 }
 
-void loop() {
-  int i=0;
-  for(i=0;i<3;i++)
-  {
-  digitalWrite(ledPin,HIGH);
-  delay(4000);
-  
- digitalWrite(ledPin,LOW);
- delay(1000);
-  }
-  for(i=0;i<3;i++)
-  {
-    digitalWrite(ledPin,HIGH);
-  delay(1000);
-  
- digitalWrite(ledPin,LOW);
- delay(1000);
-  }
+void loop()
+{
+    char fff;
+    
+    char tmpChar= 'CAB';
+    //for(int i=0;i<myString.length();i++)
+    //{
+    // tmpChar[i]=myString[i];
+    fff=tmpChar;
+    
+    switch (tmpChar) {
+        case 'A':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'B':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'C':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'D':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'E':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+            
+        case'F':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'G':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'H':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'I':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'J':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'K':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'L':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'M':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'N':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'O':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'P':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'Q':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'R':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'S':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'T':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'U':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'V':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'W':
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'X':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'Y':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+        case'Z':
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(500);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            digitalWrite(ledpin,HIGH);
+            delay(200);
+            digitalWrite(ledpin,LOW);
+            delay(200);
+            delay(1000);
+            break;
+            
+    }
 }
