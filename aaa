@@ -1,21 +1,24 @@
 int ledpin = 13;
-String myString = "";
+
 void setup()
+
 {
     pinMode(ledpin, OUTPUT);
+
 }
 
 void loop()
-{
-    char fff;
+
+{   
+String mystring = String("ABC ");
     
-    char tmpChar= 'CAB';
-    //for(int i=0;i<myString.length();i++)
-    //{
-    // tmpChar[i]=myString[i];
-    fff=tmpChar;
+
+    for(int i=0;i<mystring.length();i++)
+
+    {
+       char f=mystring[i];
     
-    switch (tmpChar) {
+    switch (f) {{
         case 'A':
             digitalWrite(ledpin,HIGH);
             delay(200);
